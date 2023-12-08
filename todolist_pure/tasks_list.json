@@ -14,5 +14,9 @@
     {
         "task": "Become a Python Developer!",
         "completed": false
+    },
+    {
+        "task": "Watch online workshop \"Road to Python Developer\" from Robot_Dreams",
+        "completed": true
     }
 ]

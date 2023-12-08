@@ -1,29 +1,36 @@
-from ToDoList import *
+from todolist_functions import *
 
 
 def main():
-    todolist = load_tasks()
-    while True:
-        print("Menu:")
-        print("1. Add a task")
-        print("2. View the list of tasks")
-        print("3. Mark a task as done")
-        print("4. Quit")
+    tasks = load_tasks()
 
-        choice = input("Choose an option (1-4): ")
+    root = tk.Tk()
+    root.title("Tasks manager")
 
-        if choice == '1':
-            add_task(todolist, input('Enter task you want to add!\n'))
-        elif choice == '2':
-            show_tasks(todolist)
-        elif choice == '3':
-            complete_task(todolist, int(input('Please enter index of task you want to mark as completed!?\n')))
-        elif choice == '4':
-            save_tasks(todolist)
-            print("Exiting Todolist. Thank you for using Todolist!")
-            break
-        else:
-            print("Invalid choice. Please choose an option from the list.")
+    label = tk.Label(root, text="Enter a new task:")
+    label.pack(pady=10)
+
+    entry = tk.Entry(root, width=50)
+    entry.pack(pady=10)
+
+    add_button = tk.Button(root, text="Add task", command=lambda: add_task(entry, listbox, tasks))
+    add_button.pack(pady=10)
+
+    listbox = tk.ListBox(root, width=60, height=15)
+    listbox.pack(pady=10)
+
+    show_tasks(listbox, tasks)
+
+    complete_button = tk.Button(root, text="Mark as complete", command=lambda: complete_task(listbox, tasks))
+    complete_button.pack(pady=10)
+
+    delete_button = tk.Button(root, text="Delete task", command=lambda: delete_task(listbox, tasks))
+    delete_button.pack(pady=10)
+
+    exit_button = tk.Button(root, text="Exit", command=root.destroy)
+    exit_button.pack(pady=10)
+
+    root.mainloop()
 
 
 if __name__ == "__main__":

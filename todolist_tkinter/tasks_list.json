@@ -1,0 +1,18 @@
+[
+    {
+        "task": "Write your task here!",
+        "completed": false
+    },
+    {
+        "task": "Make shopping",
+        "completed": true
+    },
+    {
+        "task": "Write a code",
+        "completed": true
+    },
+    {
+        "task": "Become a Python Developer!",
+        "completed": false
+    }
+]

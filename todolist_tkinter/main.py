@@ -16,7 +16,7 @@ def main():
     add_button = tk.Button(root, text="Add task", command=lambda: add_task(entry, listbox, tasks))
     add_button.pack(pady=10)
 
-    listbox = tk.ListBox(root, width=60, height=15)
+    listbox = tk.Listbox(root, width=60, height=15)
     listbox.pack(pady=10)
 
     show_tasks(listbox, tasks)

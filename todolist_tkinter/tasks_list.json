@@ -1,9 +1,5 @@
 [
     {
-        "task": "Write your task here!",
-        "completed": false
-    },
-    {
         "task": "Make shopping",
         "completed": true
     },
@@ -14,5 +10,9 @@
     {
         "task": "Become a Python Developer!",
         "completed": false
+    },
+    {
+        "task": "Make working GUI for ToDOList program!",
+        "completed": true
     }
 ]

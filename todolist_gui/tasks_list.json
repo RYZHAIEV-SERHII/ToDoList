@@ -1,7 +1,7 @@
 [
     {
         "task": "Make shopping",
-        "completed": true
+        "completed": false
     },
     {
         "task": "Write a code",

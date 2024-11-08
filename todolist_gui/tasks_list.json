@@ -14,5 +14,9 @@
     {
         "task": "Make working GUI for ToDOList program!",
         "completed": true
+    },
+    {
+        "task": "Make some cool Pet project",
+        "completed": false
     }
 ]

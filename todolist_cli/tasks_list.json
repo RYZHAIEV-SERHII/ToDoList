@@ -5,7 +5,7 @@
     },
     {
         "task": "Make shopping",
-        "completed": true
+        "completed": false
     },
     {
         "task": "Write a code",
@@ -18,5 +18,9 @@
     {
         "task": "Watch online workshop \"Road to Python Developer\" from Robot_Dreams",
         "completed": true
+    },
+    {
+        "task": "Make some new cool pet-project",
+        "completed": false
     }
 ]

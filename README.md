@@ -35,8 +35,6 @@ cd todolist_cli
 python main.py
 ```
 
-
-
 ### GUI Version
 
 Navigate to the `todolist_gui` folder and run the GUI version using the following command:
@@ -60,10 +58,19 @@ python main.py
 
 ### Console Version
 
-![Console Version Screenshot](images/console_screenshot.png)
+<div style="display:flex;overflow-x:auto;"> 
+<img src="images/todo_cli_view.png" alt="Image 1" style="width:300px;margin-right:10px;"> 
+<img src="images/todo_cli_add.png" alt="Image 2" style="width:300px;margin-right:10px;"> 
+<img src="images/todo_cli_mark_as_done.png" alt="Image 3" style="width:300px;margin-right:10px;">
+<img src="images/todo_cli_mark_as_undone.png" alt="Image 3" style="width:300px;margin-right:10px;">
+<img src="images/todo_cli_delete.png" alt="Image 3" style="width:300px;margin-right:10px;">
+<img src="images/todo_cli_quit.png" alt="Image 3" style="width:300px;margin-right:10px;">
+</div>
 
 ### GUI Version
 
-![GUI Version Screenshot](images/gui_screenshot.png)
-![GUI Version Screenshot](images/gui_screenshot_add.png)
-![GUI Version Screenshot](images/gui_screenshot_del.png)
+<div style="display:flex;overflow-x:auto;"> 
+<img src="images/gui_screenshot.png" alt="Image 1" style="width:300px;margin-right:10px;"> 
+<img src="images/gui_screenshot_add.png" alt="Image 2" style="width:300px;margin-right:10px;"> 
+<img src="images/gui_screenshot_del.png" alt="Image 3" style="width:300px;margin-right:10px;">
+</div>

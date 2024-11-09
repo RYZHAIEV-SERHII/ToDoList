@@ -1,15 +1,11 @@
 [
     {
-        "task": "Write your task here!",
-        "completed": false
-    },
-    {
         "task": "Make shopping",
         "completed": false
     },
     {
         "task": "Write a code",
-        "completed": true
+        "completed": false
     },
     {
         "task": "Become a Python Developer!",
